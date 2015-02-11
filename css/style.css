@@ -1,0 +1,151 @@
+body {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header, .inputsection, .itemlist li {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.inputsection {
+	margin-bottom: 10px;
+}
+
+.ullist {
+	list-style: none;
+	width: 414px;
+	margin: 0 auto;
+}
+
+.item {
+	list-style: none;
+	background-color: #FFFF00;
+	width: 350px;
+	height: 32px;
+	line-height: 2;
+	margin-top: 5px;
+	float: left;
+	margin-top: 0;
+}
+
+.status {
+	background-color: green;
+	width: 32px;
+	height: 32px;
+	float: left;
+	position: relative;
+	margin-top: 0;
+	-webkit-border-top-left-radius: 30px;
+		-webkit-border-bottom-left-radius: 30px;
+			-moz-border-radius-topleft: 30px;
+				-moz-border-radius-bottomleft: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.delete {
+	background-color: red;
+	width: 32px;
+	height: 32px;
+	float: left;
+	position: relative;
+	margin-top: 0;
+	-webkit-border-top-right-radius: 30px;
+		-webkit-border-bottom-right-radius: 30px;
+			-moz-border-radius-topright: 30px;
+			-moz-border-radius-bottomright: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.check {
+	background-image: url(../images/check.png);
+	background-size: cover;
+}
+
+.line {
+	text-decoration: line-through;
+	color: #A4A4A4;
+}
+
+.restsection {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.reset {
+	display: none;
+}
+
+.requentheading {
+	width: 182px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.frequentlist {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.frequentitem {
+	list-style: none;
+	text-align: center;
+	padding: 5px 10px;
+	background-color: #FFFF00;
+	width: 100px;
+	margin: 10px 0;
+	-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 700px) {
+
+		.ullist {
+			width: 300px;
+		}
+
+		.item {
+			width: 200px;
+			height: 32px;
+		}
+
+		.status {
+			width: 32px;
+			height: 32px;
+		}
+
+		.delete {
+			width: 32px;
+			height: 32px;
+		}
+  }
+
+@media (max-width: 500px) {
+
+	.ullist {
+		width: 200px;
+	}
+
+	.item {
+		width: 100px;
+		height: 32px;
+	}
+
+	.status {
+		width: 32px;
+		height: 32px;
+	}
+
+	.delete {
+		width: 32px;
+		height: 32px;
+	}
+  }
